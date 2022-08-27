@@ -1,0 +1,12 @@
+Input to RNN 
+ID1 ID2 H1 H2 U1D2 D1D1
+
+Make an array of those KeyVectors for input into RNN
+
+I think LSTM can handle the length of our input vectors so just use one type test as one piece of
+training data. If it proves to be too long and you're not getting proper accuracy refer to 
+https://machinelearningmastery.com/handle-long-sequences-long-short-term-memory-recurrent-neural-networks/
+
+1.) Make another file for writing the LSTM training data (called after finishing typeTest)
+2.) Write the actual LSTM using a library
+3.) Connect the LSTM to your typeTest so that it evaluates after each run
